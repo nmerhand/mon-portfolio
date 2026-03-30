@@ -2,9 +2,10 @@ export type Project = {
   id: number;
   title: string;
   description: string;
-  tech: string[];
-  github?: string;
-  demo?: string;
+  objectifs?: string[];
+  tech: { [key: string]: string[] };
+  competences: string[];
+  links: { [label: string]: string };
 };
 
 export type Experience = {
