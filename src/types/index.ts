@@ -1,11 +1,14 @@
 export type Project = {
   id: number;
   title: string;
-  description: string;
+  descriptionCourte: string;
+  descriptionLongue: string;
+  contexte: string;
   objectifs?: string[];
   tech: { [key: string]: string[] };
   competences: string[];
-  links: { [label: string]: string };
+  liens: { [label: string]: string };
+  detailsConnexion?: string;
 };
 
 export type Experience = {
