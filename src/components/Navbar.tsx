@@ -43,7 +43,7 @@ const Navbar: React.FC = () => {
                             to="/experiences" 
                             className={({ isActive }) => `${linkStyles} ${isActive ? activeStyles : ""}`}
                         >
-                            Stage
+                            Expériences
                         </NavLink>
                     </li>
                     <li>

@@ -5,7 +5,7 @@ export type Project = {
   descriptionLongue: string;
   contexte: string;
   objectifs?: string[];
-  tech: { [key: string]: string[] };
+  tech: string[];
   competences: string[];
   liens: { [label: string]: string };
   detailsConnexion?: string;
@@ -14,8 +14,9 @@ export type Project = {
 export type Experience = {
   id: number;
   company: string;
-  role: string;
   description: string;
+  contexte: string;
+  missions: { [projet:string] : string[]} | string[];
   startDate: string;
   endDate?: string;
   skills: string[];
