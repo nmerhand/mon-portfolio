@@ -22,10 +22,12 @@ const ModaleProject: React.FC<ModaleProject> = ({ project, onClick }) => {
 
                 <div className="text-justify text-sm text-[#94A3B8] mb-8">{project.descriptionLongue}</div>
 
-                
 
                 <div>
                     <h3 className="text-xl text-[#FFFFFF] max-w-2xl mb-6">Accès au projet</h3>
+                    {project.detailsConnexion && (
+                        <p className='text-justify text-sm text-[#94A3B8] mb-4'>{project.detailsConnexion}</p>
+                    )}
                     {Object.entries(project.liens).map(([label, lien], index) => (
                         <a
                             key={index}

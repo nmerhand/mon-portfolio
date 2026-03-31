@@ -13,10 +13,7 @@ export const projects: Project[] = [
       "Fournir des analyses sous forme de statistiques et rapports",
       "Répondre à des requêtes spécifiques pour assurer le suivi des accès web"
     ],
-    tech: {
-      "Langages" : ["Python", "SQL"],
-      "IDE" : ["VSCode"]
-    },
+    tech: ["Python", "SQL", "VSCode"],
     competences: [
       "Analyser les objectifs et les modalités d'organisation d'un projet"
     ],
@@ -34,12 +31,7 @@ export const projects: Project[] = [
       "Centraliser les ressources et documents",
       "Optimiser la gestion des projets et tâches"
     ],
-    tech: {
-      "Langages" : ["HTML / CSS", "PHP", "JavaScript", "SQL"],
-      "Base de donnés" : ["MariaDB"],
-      "Serveur" : ["Apache"],
-      "IDE" : ["VSCode"]
-    },
+    tech: ["HTML / CSS", "PHP", "JavaScript", "SQL", "MariaDB", "Apache", "VSCode"],
     competences: [
       "Participer à l'évolution d'un site Web exploitant les données de l'organisation",
       "Déployer un service"
@@ -47,7 +39,8 @@ export const projects: Project[] = [
     liens: {
       "Accéder à l'intranet" : "https://jolsio.fr:4456/merhandn/public/code_source/SeConnecter/SeConnecter.php",
       "Lien GitLab" : "https://gitlab.com/g7_intranet1/Projet_Intranet"
-    }
+    },
+    detailsConnexion: "Connexion au compte administrateur : nmerhand - 123"
   },
   {
     id: 3,
@@ -55,10 +48,7 @@ export const projects: Project[] = [
     descriptionCourte: "Gestion d'excursions pour un centre de thalassothérie",
     descriptionLongue: "Le projet Thali a pour objectif de développer un module logiciel pour la gestion et la réservation de mini-excursions organisées par le centre de thalassothérapie THALI. Ces excursions, proposées aux curistes les après-midis, sont limitées en places et décomposées en plusieurs étapes détaillant leur déroulement. L'entreprise STESIO, une ESN (Entreprise de Services du Numérique), a été mandatée par THALI pour concevoir cette application en Java, avec une interface graphique et une base de données MySQL/MariaDB. Le module repose sur un système CRUD (ajout, modification, suppression et consultation des excursions et de leurs étapes). Un prototype partiel existe déjà, et le projet consiste à le compléter en améliorant ses fonctionnalités à différents niveaux.",
     contexte: "BTS SIO - première année",
-    tech: {
-      "Langages" : ["Java", "SQL"],
-      "IDE" : ["NetBeans"]
-    },
+    tech: ["Java", "SQL", "NetBeans", "Trello"],
     competences: [
       "Exploiter des référentiels, normes et standards adoptés par le prestataire informatique",
       "Réaliser les tests d'intégration et d'acceptation d'un service"
@@ -78,12 +68,7 @@ export const projects: Project[] = [
       "Travailler en équipe en suivant une démarche agile.",
       "Déployer le site sur le serveur de la section."
     ],
-    tech: {
-      "Langages" : ["HTML / CSS", "PHP", "SQL"],
-      "Base de données" : ["MariaDB"],
-      "Dépot Git" : ["GitLab"],
-      "IDE" : ["NetBeans"]
-    },
+    tech: ["HTML / CSS", "PHP", "SQL", "MariaDB", "GitLab", "NetBeans"],
     competences: [
       "Exploiter des référentiels, normes et standards adoptés par le prestataire informatique",
       "Traiter des demandes concernant les applications",
