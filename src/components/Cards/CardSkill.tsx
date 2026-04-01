@@ -20,7 +20,7 @@ const CardSkill : React.FC<CardSkillProps> = ({skill}) => {
                                 {items.map((item, index) => (
                                     <span
                                         key={index}
-                                        className="bg-pink-500/10 text-pink-400 px-3 py-1 rounded-full text-sm"
+                                        className="bg-purple-600/10 text-purple-500 px-3 py-1 rounded-full text-sm"
                                     >
                                         {item}
                                     </span>
@@ -43,7 +43,7 @@ const CardSkill : React.FC<CardSkillProps> = ({skill}) => {
                                 {items.map((item, index) => (
                                     <span
                                         key={index}
-                                        className="bg-purple-500/10 text-purple-400 px-3 py-1 rounded-full text-sm"
+                                        className="bg-pink-500/10 text-pink-500 px-3 py-1 rounded-full text-sm"
                                     >
                                         {item}
                                     </span>
@@ -61,7 +61,7 @@ const CardSkill : React.FC<CardSkillProps> = ({skill}) => {
                     {skill.soft.map((skill, index) => (
                         <span
                             key={index}
-                            className="bg-[#79E0EE]/10 text-[#79E0EE] px-3 py-1 rounded-full text-sm"
+                            className="bg-red-400/10 text-red-400 px-3 py-1 rounded-full text-sm"
                         >
                             {skill}
                         </span>

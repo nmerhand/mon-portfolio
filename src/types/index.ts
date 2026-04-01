@@ -28,3 +28,12 @@ export type Skill = {
   outils: { [label:string] : string[] };
   soft: string[];
 };
+
+export type School = {
+  id: number;
+  name: string;
+  date : string;
+  title: string;
+  description?: string[];
+  localisation: string;
+}

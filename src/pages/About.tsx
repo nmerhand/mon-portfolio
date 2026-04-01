@@ -1,20 +1,29 @@
+import ButtonSecond from "../components/Buttons/ButtonSecond";
 import CardSkill from "../components/Cards/CardSkill";
+import Timeline from "../components/Timeline";
 import { skills } from "../data/skills";
+import { schools } from "../data/school";
 
-const About = () => {
+function About() {
     return (
         <div className="bg-[#1A1A2E] min-h-screen">
             <div className="p-8">
 
                 <section className="mb-12">
                     <h1 className="text-5xl font-bold text-white mb-8">À propos de moi</h1>
-                    <p className="mt-4 text-[#94A3B8]">
-                        Aujourd'hui, je suis étudiante de deuxième année en BTS SIO, option SLAM, à La Joliverie. 
+                    <p className="mt-4 text-[#94A3B8] text-justify">
+                        Aujourd'hui, je suis étudiante en deuxième année de BTS SIO, option SLAM, à La Joliverie. Là-bas, j'ai découvert une véritable passion pour le développement front-end et web. J'aime les puzzles, les énigmes et les casse-têtes, ce qui se traduit par mon goût pour résoudre des bugs et réfléchir à des solutions complexes. Ce que j'aime particulièrement dans le développement web, c'est de voir mes idées prendre forme immédiatement à l'écran — et, je l'avoue, que ce soit aussi joli que fonctionnel !
                     </p>
                 </section>
 
                 <section className="mb-12">
+                    <h2 className="text-3xl font-semibold text-white mb-12">Mon CV</h2>
+                    <ButtonSecond message="Télécharger mon CV" href="/MERHAND_Nora_CV.pdf" target="_blank" />
+                </section>
+
+                <section className="mb-12">
                     <h2 className="text-3xl font-semibold text-white mb-8">Parcours</h2>
+                    <Timeline school={schools} />
                 </section>
 
                 <section className="mb-12">
@@ -25,10 +34,6 @@ const About = () => {
                     </div>
                 </section>
 
-                <section className="mb-12">
-                    <h2 className="text-3xl font-semibold text-white mb-8">Mon CV</h2>
-                    
-                </section>
             </div>
         </div>
     );
