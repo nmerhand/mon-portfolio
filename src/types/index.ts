@@ -16,8 +16,24 @@ export type Experience = {
   company: string;
   description: string;
   contexte: string;
-  missions: { [projet:string] : string[]} | string[];
+  missions: { [projet:string] : string[] } | string[];
   startDate: string;
   endDate?: string;
   skills: string[];
 };
+
+export type Skill = {
+  id: number;
+  informatique: { [label:string] : string[] };
+  outils: { [label:string] : string[] };
+  soft: string[];
+};
+
+export type School = {
+  id: number;
+  name: string;
+  date : string;
+  title: string;
+  description?: string[];
+  localisation: string;
+}

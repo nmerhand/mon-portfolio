@@ -8,9 +8,9 @@ interface CardExperienceProps {
 const CardExperience: React.FC<CardExperienceProps> = ({ experience }) => {
     return (
         <div className="my-5 p-4 bg-[#252539] rounded-2xl">
-            <h3 className="text-xl font-semibold text-white group-hover:text-pink-400 transition">{experience.company}</h3>
+            <h3 className="text-xl font-semibold text-white">{experience.company}</h3>
             <p className="text-base text-[#94A3B8] text-justify mb-8">{experience.description}</p>
-            
+
             <div className="mt-4">
                 {Array.isArray(experience.missions) ? (
                     <ul className="list-disc ml-4 space-y-1 text-justify text-sm text-[#94A3B8] mb-8">
@@ -51,7 +51,7 @@ const CardExperience: React.FC<CardExperienceProps> = ({ experience }) => {
                     {experience.contexte}
                 </p>
             </div>
-            
+
         </div>
     );
 };

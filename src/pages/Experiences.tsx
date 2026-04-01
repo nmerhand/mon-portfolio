@@ -15,7 +15,7 @@ function Experiences() {
 
             <div id="stages" className="px-8 py-8 bg-[#1A1A2E] border-t-8 border-[#FFB6C1]">
                 <h2 className="text-4xl font-bold leading-6 text-[#FFFFFF] mb-10">Mes Stages</h2>
-                {experiences.map((experience)  => (
+                {experiences.map((experience) => (
                     <CardExperience experience={experience} />
                 ))}
             </div>
