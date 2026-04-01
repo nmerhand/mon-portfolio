@@ -7,7 +7,7 @@ function Home() {
     const [isVisible, setIsVisible] = useState(false);
 
     return (
-        <div className="h-[calc(100vh-65px)] bg-[#1A1A2E] w-full flex flex-col justify-center items-center text-center relative overflow-hidden">
+        <div className="h-[calc(100vh-65px)] bg-[#1A1A2E] w-full flex flex-col justify-center items-center text-center relative overflow-hidden cursor-default">
             <div className="absolute inset-0 bg-[#1A1A2F]/50"></div>
             
             <div className="relative z-10 px-4">

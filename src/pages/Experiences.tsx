@@ -4,7 +4,7 @@ import { experiences } from "../data/experiences"
 
 function Experiences() {
     return (
-        <div className="bg-[#1A1A2E] min-h-screen">
+        <div className="bg-[#1A1A2E] min-h-screen cursor-default">
             <div className="pb-12 h-screen w-full flex flex-col justify-center items-center text-center">
                 <h1 className="text-5xl md:text-6xl font-bold text-white mb-4">Mes Expériences</h1>
                 <p className="text-lg md:text-xl text-[#94A3B8] max-w-2xl mx-auto mb-8">
