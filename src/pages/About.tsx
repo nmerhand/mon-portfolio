@@ -7,7 +7,7 @@ import { schools } from "../data/school";
 function About() {
     return (
         <div className="bg-[#1A1A2E] min-h-screen">
-            <div className="p-8">
+            <div className="p-8 cursor-default">
 
                 <section className="mb-12">
                     <h1 className="text-5xl font-bold text-white mb-8">À propos de moi</h1>
