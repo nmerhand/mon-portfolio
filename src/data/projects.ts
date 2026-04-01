@@ -79,5 +79,16 @@ export const projects: Project[] = [
       "Lien GitLab" : "https://gitlab.com/NoraMERHAND/p1_g4_siteresto2025",
       "Google Drive": "https://drive.google.com/drive/folders/1Y50cmUitKUxwKX85EKzYoEs3p00xpk8m?usp=sharing"
     }
+  },
+  {
+    id: 5,
+    title: "Modérateur R3st0",
+    descriptionCourte: "Développement d'un modérateur d'avis",
+    descriptionLongue: "Suite au projet R3st0.fr, nous avons eu pour projet de développer une application permettant de filtrer les avis / critiques laissées sur le site. ",
+    contexte: "BTS SIO - deuxième année",
+    tech: ["Java", "GitLab"],
+    liens: {
+      "" : ""
+    }
   }
 ];
