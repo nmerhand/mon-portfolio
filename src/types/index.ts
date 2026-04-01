@@ -24,9 +24,8 @@ export type Experience = {
 
 export type Skill = {
   id: number;
-  informatique: { [label:string] : string[] };
-  outils: { [label:string] : string[] };
-  soft: string[];
+  categorie: string;
+  sous_catégorie: { [label:string] : string[] } | string[];
 };
 
 export type School = {

@@ -6,6 +6,21 @@ import { schools } from "../data/school";
 import Footer from "../components/Footer";
 
 function About() {
+    const getColor = (categorie: string) => {
+        switch (categorie.toLowerCase()) {
+            case "informatique":
+                return "purple";
+            case "outils":
+                return "pink";
+            case "soft skills":
+                return "amber";
+            case "langues" :
+                return "red";
+            default:
+                return "blue";
+        }
+    };
+
     return (
         <div>
             <div className="bg-[#1A1A2E] min-h-screen">
@@ -31,8 +46,10 @@ function About() {
                     <section className="mb-12">
                         <h2 className="text-3xl font-semibold text-white mb-8">Compétences</h2>
 
-                        <div className="mt-4 flex flex-wrap gap-2">
-                            <CardSkill skill={skills} />
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                            {skills.map((skill) => (
+                                <CardSkill key={skill.id} skill={skill} couleur={getColor(skill.categorie)} />
+                            ))}
                         </div>
                     </section>
 
