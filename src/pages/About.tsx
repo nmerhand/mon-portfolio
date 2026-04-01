@@ -10,10 +10,10 @@ function About() {
         switch (categorie.toLowerCase()) {
             case "informatique":
                 return "purple";
-            case "outils":
-                return "pink";
+            case "outils tech":
+                return "blue";
             case "soft skills":
-                return "amber";
+                return "pink";
             case "langues" :
                 return "red";
             default:

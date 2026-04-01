@@ -6,7 +6,7 @@ export type Project = {
   contexte: string;
   objectifs?: string[];
   tech: string[];
-  competences: string[];
+  competences?: string[];
   liens: { [label: string]: string };
   detailsConnexion?: string;
 };
