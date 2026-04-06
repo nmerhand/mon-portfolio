@@ -20,6 +20,7 @@ export type Experience = {
   startDate: string;
   endDate?: string;
   skills: string[];
+  liens: { [label: string]: string };
 };
 
 export type Skill = {

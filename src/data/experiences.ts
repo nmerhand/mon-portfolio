@@ -9,7 +9,11 @@ export const experiences : Experience[] = [
         missions: ["Amélioration et création de composant LWC génériques réutilisable et intégrable dans des Flow ou d'autres LWC"],
         startDate: '12.05.2025',
         endDate: '20.06.2025',
-        skills: ['TypeScript', 'Salesforce', 'LWC', 'JSON', 'VSCode', 'GitHub', 'Slack', 'Figma']
+        skills: ['TypeScript', 'Salesforce', 'LWC', 'JSON', 'VSCode', 'GitHub', 'Slack', 'Figma'],
+        liens : {
+            "Comptes-rendus hebdomadaires" : "https://drive.google.com/drive/folders/1a8E09nSnKqBFiW0xng3Jl1mdt3FYReUo",
+            "Rapport de stage" : "/MERHAND_Nora_1SLAM_2025_Stage_1_Rapport.pdf"
+        },
     },
     {
         id: 2,
@@ -22,6 +26,10 @@ export const experiences : Experience[] = [
         },
         startDate: '05.01.2026',
         endDate: '12.02.2026',
-        skills: ['React', 'TypeScript', 'JSON', 'Tailwind CSS', 'Salesforce', 'SOQL', 'VSCode', 'GitHub', 'Monday', 'Teams']
+        skills: ['React', 'TypeScript', 'JSON', 'Tailwind CSS', 'Salesforce', 'SOQL', 'VSCode', 'GitHub', 'Monday', 'Teams'],
+        liens : {
+            "Comptes-rendus hebdomadaires" : "https://drive.google.com/drive/folders/1OZrHdF4Mftj8Xi4eJGc3WIV-bw1ooSXH",
+            "Rapport de stage" : "/MERHAND_Nora_2SLAM_2026_Stage_2_Rapport.pdf"
+        }
     }
 ];
