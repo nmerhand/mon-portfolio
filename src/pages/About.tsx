@@ -29,7 +29,7 @@ function About() {
                     <section className="mb-12">
                         <h1 className="text-5xl font-bold text-white mb-8">À propos de moi</h1>
                         <p className="mt-4 text-[#94A3B8] text-justify">
-                            Aujourd'hui, je suis étudiante en deuxième année de BTS SIO, option SLAM, à La Joliverie. Là-bas, j'ai découvert une véritable passion pour le développement front-end et web. J'aime les puzzles, les énigmes et les casse-têtes, ce qui se traduit par mon goût pour résoudre des bugs et réfléchir à des solutions complexes. Ce que j'aime particulièrement dans le développement web, c'est de voir mes idées prendre forme immédiatement à l'écran — et, je l'avoue, que ce soit aussi joli que fonctionnel !
+                            Aujourd'hui, je suis étudiante en deuxième année de BTS SIO, option SLAM, à La Joliverie. Là-bas, j'ai découvert une véritable passion pour le développement web. J'aime les puzzles, les énigmes et les casse-têtes, ce qui se traduit par mon goût pour résoudre des bugs et réfléchir à des solutions complexes. Ce que j'aime particulièrement dans le développement web, c'est de voir mes idées prendre forme immédiatement à l'écran — et, je l'avoue, que ce soit aussi joli que fonctionnel !
                         </p>
                     </section>
 
