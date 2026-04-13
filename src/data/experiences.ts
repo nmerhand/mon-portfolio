@@ -6,7 +6,9 @@ export const experiences : Experience[] = [
         company: 'Kiliogene',
         description: 'Kiliogene est une société spécialisée en solutions Salesforce',
         contexte: 'Première année de BTS SIO',
-        missions: ["Amélioration et création de composant LWC génériques réutilisable et intégrable dans des Flow ou d'autres LWC"],
+        missions: { 
+            "Amélioration et création de composants LWC génériques réutilisables et intégrables dans des Flow ou d'autres LWC" : ["Une dual-picklist avec barre de recherche dynamique", "Une timeline multi-orientations avec affichage progressif et scroll horizontal", "Une nullable checkbox adaptée aux valeurs null/undefined", "Une tree grid responsive, avec affichage récursif, adaptation sur mobile et sélection de lignes"]
+        },
         startDate: '12.05.2025',
         endDate: '20.06.2025',
         skills: ['TypeScript', 'Salesforce', 'LWC', 'JSON', 'VSCode', 'GitHub', 'Slack', 'Figma'],
