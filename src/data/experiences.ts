@@ -12,6 +12,9 @@ export const experiences : Experience[] = [
         startDate: '12.05.2025',
         endDate: '20.06.2025',
         skills: ['TypeScript', 'Salesforce', 'LWC', 'JSON', 'VSCode', 'GitHub', 'Slack', 'Figma'],
+        competences: [
+            "Développer son projet professionnel"
+        ],
         liens : {
             "Comptes-rendus hebdomadaires" : "https://drive.google.com/drive/folders/1a8E09nSnKqBFiW0xng3Jl1mdt3FYReUo",
             "Rapport de stage" : "/MERHAND_Nora_1SLAM_2025_Stage_1_Rapport.pdf"
@@ -29,6 +32,10 @@ export const experiences : Experience[] = [
         startDate: '05.01.2026',
         endDate: '12.02.2026',
         skills: ['React', 'TypeScript', 'JSON', 'Tailwind CSS', 'Salesforce', 'SOQL', 'VSCode', 'GitHub', 'Monday', 'Teams'],
+        competences: [
+            "Traiter des demandes concernant les applications",
+            "Planifier les activités"
+        ],
         liens : {
             "Comptes-rendus hebdomadaires" : "https://drive.google.com/drive/folders/1OZrHdF4Mftj8Xi4eJGc3WIV-bw1ooSXH",
             "Rapport de stage" : "/MERHAND_Nora_2SLAM_2026_Stage_2_Rapport.pdf"

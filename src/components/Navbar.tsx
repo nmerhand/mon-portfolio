@@ -32,7 +32,7 @@ const Navbar: React.FC = () => {
                     </li>
                     <li>
                         <NavLink 
-                            to="/projects" // Attention : doit correspondre au 'path' dans App.tsx
+                            to="/projects" 
                             className={({ isActive }) => `${linkStyles} ${isActive ? activeStyles : ""}`}
                         >
                             Projets

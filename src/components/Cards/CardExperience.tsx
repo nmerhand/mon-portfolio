@@ -1,5 +1,6 @@
 import type React from "react";
 import type { Experience } from "../../types";
+import LinkPrimary from "../Buttons/LinkPrimary";
 
 interface CardExperienceProps {
     experience: Experience;
@@ -43,23 +44,20 @@ const CardExperience: React.FC<CardExperienceProps> = ({ experience }) => {
                 ))}
             </div>
 
+            <div className="mt-6">
+                <h3 className="pb-2 text-md font-medium text-white">Compétences développées durant le stage</h3>
+                {Object.values(experience.competences ?? {}).flat().map((competence, index) => (
+                    <ul className="list-disc ml-8 space-y-1 text-justify text-sm text-[#94A3B8]">
+                        <li key={index}>
+                            {competence}
+                        </li>
+                    </ul>
+                ))}
+            </div>
+
             <div className="flex flex-wrap gap-2 my-6">
                 {Object.entries(experience.liens).map(([label, lien], index) => (
-                    <a
-                        key={index}
-                        href={lien}
-                        target='_blank'
-                        className="mr-3 py-1 text-sm font-medium 
-text-[#94A3B8] hover:text-white 
-relative inline-block
-after:absolute after:left-0 after:bottom-0 
-after:h-[1px] after:w-full after:scale-x-0 
-after:origin-left after:bg-pink-500 
-after:transition-transform after:duration-200 
-hover:after:scale-x-100"
-                    >
-                        {label}
-                    </a>
+                    <LinkPrimary key={index} message={label} href={lien} target="_blank" />
                 ))}
             </div>
 

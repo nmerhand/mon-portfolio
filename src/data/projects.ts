@@ -50,7 +50,6 @@ export const projects: Project[] = [
     contexte: "BTS SIO - première année",
     tech: ["Java", "SQL", "NetBeans", "Trello"],
     competences: [
-      "Exploiter des référentiels, normes et standards adoptés par le prestataire informatique",
       "Réaliser les tests d'intégration et d'acceptation d'un service"
     ],
     liens: {
@@ -78,6 +77,21 @@ export const projects: Project[] = [
       "Accès au site" : "https://jolsio.fr:4456/merhandn/public/r3sto_nmerhand/",
       "Lien GitLab" : "https://gitlab.com/NoraMERHAND/p1_g4_siteresto2025",
       "Google Drive": "https://drive.google.com/drive/folders/1Y50cmUitKUxwKX85EKzYoEs3p00xpk8m?usp=sharing"
+    }
+  },
+  {
+    id: 5,
+    title: "Modérateur R3st0",
+    descriptionCourte: "Développement d'un modérateur d'avis",
+    descriptionLongue: "Suite au projet R3st0.fr, nous avons eu pour projet de développer une application Java permettant de filtrer les avis / critiques laissés sur le site par les utilisateurs connectés. L'application est accèssible à deux types d'utilisateurs possibles : modérateur et responsable du site. Tout utilisateur doit s'authentifier au préalable et se voit autoriser l'accès à différentes fonctionnalités en fonction de son role. Un modérateur a le droit de masquer des avis en rentrant le justificatif de masquage. Le responsable du site quant à lui peut démasqer les avis ou les supprimer complètement. Cet application est accessible via un executable dont l'installation et les détails de connexion sont disponible dans le fichier 'Manuel utilisateur'.",
+    contexte: "BTS SIO - deuxième année",
+    tech: ["Java", "SQL", "GitLab", "IntelliJ"],
+    competences: [
+      "Participer à l'évolution d'un site Web exploitant les données de l'organisation"
+    ],
+    liens: {
+      "Google Drive" : "https://drive.google.com/drive/u/0/folders/1wYpUQIxKuttUmtE14-hJ6gppjcd9P7eA",
+      "Manuel utilisateur" : "/P3_G5_AppliModerateurResto_RemiseLivrable.pdf"
     }
   }
 ];
