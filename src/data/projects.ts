@@ -37,8 +37,7 @@ export const projects: Project[] = [
       "Déployer un service"
     ],
     liens: {
-      "Accéder à l'intranet" : "https://jolsio.fr:4456/merhandn/public/code_source/SeConnecter/SeConnecter.php",
-      "Lien GitLab" : "https://gitlab.com/g7_intranet1/Projet_Intranet"
+      "Accéder à l'intranet" : "https://jolsio.fr:4456/merhandn/public/code_source/SeConnecter/SeConnecter.php"
     },
     detailsConnexion: "Connexion au compte administrateur : nmerhand - 123"
   },
@@ -75,8 +74,8 @@ export const projects: Project[] = [
     ],
     liens: {
       "Accès au site" : "https://jolsio.fr:4456/merhandn/public/r3sto_nmerhand/",
-      "Lien GitLab" : "https://gitlab.com/NoraMERHAND/p1_g4_siteresto2025",
-      "Google Drive": "https://drive.google.com/drive/folders/1Y50cmUitKUxwKX85EKzYoEs3p00xpk8m?usp=sharing"
+      "Google Drive": "https://drive.google.com/drive/folders/1Y50cmUitKUxwKX85EKzYoEs3p00xpk8m?usp=sharing",
+      "Lien GitLab" : "https://gitlab.com/NoraMERHAND/p1_g4_siteresto2025"
     }
   },
   {
@@ -90,8 +89,9 @@ export const projects: Project[] = [
       "Participer à l'évolution d'un site Web exploitant les données de l'organisation"
     ],
     liens: {
+      "Manuel utilisateur" : "/P3_G5_AppliModerateurResto_RemiseLivrable.pdf",
       "Google Drive" : "https://drive.google.com/drive/u/0/folders/1wYpUQIxKuttUmtE14-hJ6gppjcd9P7eA",
-      "Manuel utilisateur" : "/P3_G5_AppliModerateurResto_RemiseLivrable.pdf"
+      "Lien GitLab" : "https://gitlab.com/noel_lilo/P3_G5_AppliModerateurResto"
     }
   }
 ];
