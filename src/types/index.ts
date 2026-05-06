@@ -38,3 +38,14 @@ export type School = {
   description?: string[];
   localisation: string;
 }
+
+export type Veille = {
+  id: number;
+  titre: string;
+  description: string;
+  introduction: string;
+  sections: { [label: string]: string[] };
+  conclusion: string;
+  sources: { [label: string]: string };
+  date: string;
+}

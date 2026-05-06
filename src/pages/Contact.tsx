@@ -14,7 +14,7 @@ function Contact() {
                     <section>
                         <div className="my-5 p-4 bg-[#252539] rounded-2xl">
                             <h3 className="text-2xl font-semibold text-white mb-6">Mes coordonées</h3>
-                            <ul className="list-disc ml-8 space-y-1 text-justify text-sm text-[#94A3B8] mb-8">
+                            <ul className="list-disc ml-8 space-y-1 text-justify text-sm text-[#CBD5F5] mb-8">
                                 <li><strong>Email : </strong>n.merhand44@gmail.com</li>
                                 <li><strong>Téléphone : </strong>06.33.42.97.84</li>
                                 <li><strong>Linkedln : </strong><a href="https://www.linkedin.com/in/nora-merhand-a372432aa/" target='_blank' className="hover:text-pink-400 transition">Nora MERHAND</a></li>

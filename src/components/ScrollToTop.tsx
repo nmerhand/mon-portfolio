@@ -5,10 +5,10 @@ const ScrollToTop: React.FC = () => {
   const { pathname } = useLocation();
 
   useEffect(() => {
-    window.scrollTo(0, 0); // scroll en haut à gauche
-  }, [pathname]); // à chaque changement de route
+    window.scrollTo(0, 0); 
+  }, [pathname]); 
 
-  return null; // ne rend rien
+  return null;
 };
 
 export default ScrollToTop;

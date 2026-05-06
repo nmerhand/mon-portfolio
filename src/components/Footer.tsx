@@ -22,6 +22,7 @@ const Footer: React.FC = () => {
                         <li><NavLink to='/about' className={({ isActive }) => `${linkStyles} ${isActive ? activeStyles : ""}`}>A propos</NavLink></li>
                         <li><NavLink to='/projects' className={({ isActive }) => `${linkStyles} ${isActive ? activeStyles : ""}`}>Mes projets</NavLink></li>
                         <li><NavLink to='/experiences' className={({ isActive }) => `${linkStyles} ${isActive ? activeStyles : ""}`}>Mes expériences</NavLink></li>
+                        <li><NavLink to='/veille' className={({ isActive }) => `${linkStyles} ${isActive ? activeStyles : ""}`}>Ma veille technologique</NavLink></li>
                         <li><NavLink to='/contact' className={({ isActive }) => `${linkStyles} ${isActive ? activeStyles : ""}`}>Contact</NavLink></li>
                     </ul>
                 </div>

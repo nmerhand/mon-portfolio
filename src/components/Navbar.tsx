@@ -48,6 +48,14 @@ const Navbar: React.FC = () => {
                     </li>
                     <li>
                         <NavLink 
+                            to="/veille" 
+                            className={({ isActive }) => `${linkStyles} ${isActive ? activeStyles : ""}`}
+                        >
+                            Veille Technologique
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink 
                             to="/contact" 
                             className={({ isActive }) => `${linkStyles} ${isActive ? activeStyles : ""}`}
                         >

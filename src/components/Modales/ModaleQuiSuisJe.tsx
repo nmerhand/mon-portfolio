@@ -16,7 +16,7 @@ const ModaleQuiSuisJe: React.FC<ModaleQuiSuisJe> = ({ onClick }) => {
                 </div>
                 
                 <div className="mt-2">
-                    <div className="text-justify text-sm text-[#94A3B8]">
+                    <div className="text-justify text-sm text-[#CBD5F5]">
                         <p>Je m'appelle <span className="text-[#FF75A0]">Nora Merhand</span>, et depuis toute petite, on me pose LA question que l'on adresse à tous les enfants :</p>
                         <p className="italic">« Tu veux devenir quoi quand tu seras grande ? »</p>
                         <p className="pt-2">Et comme beaucoup d'enfants avant moi, j'ai répondu : « Une princesse ! »</p>

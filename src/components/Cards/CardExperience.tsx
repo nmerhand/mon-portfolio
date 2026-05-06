@@ -23,7 +23,7 @@ const CardExperience: React.FC<CardExperienceProps> = ({ experience }) => {
                     Object.entries(experience.missions).map(([projet, missions], index) => (
                         <div key={index} className="mb-3">
                             <h3 className="text-md font-medium text-white">{projet}</h3>
-                            <ul className="list-disc ml-8 space-y-1 text-justify text-sm text-[#94A3B8] mb-8">
+                            <ul className="list-disc ml-8 space-y-1 text-justify text-sm text-[#CBD5F5] mb-8">
                                 {missions.map((mission, i) => (
                                     <li key={i}>{mission}</li>
                                 ))}
@@ -47,7 +47,7 @@ const CardExperience: React.FC<CardExperienceProps> = ({ experience }) => {
             <div className="mt-6">
                 <h3 className="pb-2 text-md font-medium text-white">Compétences développées durant le stage</h3>
                 {Object.values(experience.competences ?? {}).flat().map((competence, index) => (
-                    <ul className="list-disc ml-8 space-y-1 text-justify text-sm text-[#94A3B8]">
+                    <ul className="list-disc ml-8 space-y-1 text-justify text-sm text-[#CBD5F5]">
                         <li key={index}>
                             {competence}
                         </li>
