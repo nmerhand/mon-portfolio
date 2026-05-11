@@ -42,7 +42,7 @@ export const skills: Skill[] = [
         categorie: "Langues",
         sous_catégorie: {
             "Français": ["Niveau C2", "Native"],
-            "Anglais": ["Niveau B1"],
+            "Anglais": ["Niveau B1+", "TOEIC : 700/990"],
             "Espagnol": ["Niveau B2", "Emploi saisonnier deux années de suite en Espagne"],
             "Italien": ["Niveau A1"]
         }
