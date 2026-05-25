@@ -23,7 +23,7 @@ const ModaleProject: React.FC<ModaleProject> = ({ project, onClick }) => {
 
                 <div className="text-justify text-sm text-[#CBD5F5] mb-6">{project.descriptionLongue}</div>
 
-                <div className="text-justify text-sm text-[#CBD5F5] mb-6">
+                {/* <div className="text-justify text-sm text-[#CBD5F5] mb-6">
                     <h3 className="text-xl text-[#FFFFFF] max-w-2xl mb-4">Compétences développées durant le projet</h3>
                     {Object.values(project.competences ?? {}).flat().map((competence, index) => (
                         <ul className="list-disc ml-8 space-y-1 text-justify text-sm text-[#CBD5F5]">
@@ -32,7 +32,7 @@ const ModaleProject: React.FC<ModaleProject> = ({ project, onClick }) => {
                             </li>
                         </ul>
                     ))}
-                </div>
+                </div> */}
 
                 <div>
                     <h3 className="text-xl text-[#FFFFFF] max-w-2xl mb-4">Accès au projet</h3>

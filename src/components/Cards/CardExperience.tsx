@@ -44,7 +44,7 @@ const CardExperience: React.FC<CardExperienceProps> = ({ experience }) => {
                 ))}
             </div>
 
-            <div className="mt-6">
+            {/* <div className="mt-6">
                 <h3 className="pb-2 text-md font-medium text-white">Compétences développées durant le stage</h3>
                 {Object.values(experience.competences ?? {}).flat().map((competence, index) => (
                     <ul className="list-disc ml-8 space-y-1 text-justify text-sm text-[#CBD5F5]">
@@ -53,7 +53,7 @@ const CardExperience: React.FC<CardExperienceProps> = ({ experience }) => {
                         </li>
                     </ul>
                 ))}
-            </div>
+            </div> */}
 
             <div className="flex flex-wrap gap-2 my-6">
                 {Object.entries(experience.liens).map(([label, lien], index) => (
