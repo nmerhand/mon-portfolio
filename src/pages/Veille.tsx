@@ -6,12 +6,12 @@ function Veille() {
     return (
         <div>
             <div className="bg-[#1A1A2E] min-h-screen cursor-default">
-                <div className="pb-12 h-screen w-full flex flex-col justify-center items-center text-center">
-                    <h1 className="max-w-6xl mx-auto md:text-5xl font-bold text-white mb-4">En quoi les Applications Web Progressives représentent-elle une alternative viable aux applications mobiles natives ?</h1>
+                <div className="min-h-[calc(100svh-65px)] px-4 py-16 flex flex-col justify-center items-center text-center">
+                    <h1 className="max-w-6xl mx-auto text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-4">En quoi les Applications Web Progressives représentent-elle une alternative viable aux applications mobiles natives ?</h1>
 
                 </div>
 
-                <div id="" className="px-8 py-8 bg-[#1A1A2E] border-y-8 border-[#FFB6C1]">
+                <div className="px-4 sm:px-6 md:px-8 py-8 bg-[#1A1A2E] border-y-8 border-[#FFB6C1]">
                     <p className="text-justify text-[#CBD5F5]">
                         Les Applications Web Progressives, aussi appellées Progressive Web Apps ou PWA sont des applications web utilisant des technologies web modernes permettant l'installation sur un appareil et le fonctionnement hors connexion.
                     </p>

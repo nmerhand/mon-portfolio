@@ -11,17 +11,17 @@ function CardVeille({ veille }: Props) {
 
     return (
         <div className="relative rounded-2xl bg-white/5 border border-white/10 p-4 cursor-pointer overflow-hidden transition-colors duration-100 hover:bg-white/10 hover:border-pink-400/30">
-            <div onClick={() => setOpen(!open)} className="flex justify-between items-center">
-                <div className="flex items-center gap-4">
-                    <FaChevronRight className={`text-[#FFB6C1] transition-transform duration-200 ${open ? "rotate-90" : ""}`} />
+            <div onClick={() => setOpen(!open)} className="flex flex-col gap-2 sm:flex-row sm:justify-between sm:items-center">
+                <div className="flex items-start gap-3 sm:gap-4 min-w-0">
+                    <FaChevronRight className={`mt-1 shrink-0 text-[#FFB6C1] transition-transform duration-200 ${open ? "rotate-90" : ""}`} />
 
-                    <div>
+                    <div className="min-w-0">
                         <h3 className="text-lg font-semibold text-white">{veille.titre}</h3>
                         <h4 className="text-md text-[#94A3B8]">{veille.description}</h4>
                     </div>
                 </div>
 
-                <p className="text-xs text-gray-500">{veille.date}</p>
+                <p className="pl-7 text-xs text-gray-500 sm:pl-0">{veille.date}</p>
             </div>
 
             <div className={`cursor-default overflow-hidden transition-[max-height,opacity] duration-200 ease-out ${open ? "max-h-[2000px] opacity-100 mt-4" : "max-h-0 opacity-0 mt-0"}`}>

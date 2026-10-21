@@ -1,18 +1,19 @@
 import { X } from 'lucide-react';
+import { createPortal } from 'react-dom';
 
 interface ModaleQuiSuisJe {
     onClick: () => void;
 }
 
 const ModaleQuiSuisJe: React.FC<ModaleQuiSuisJe> = ({ onClick }) => {
-    return (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm" onClick={onClick}>
+    return createPortal(
+        <div className="fixed inset-x-0 bottom-0 top-[73px] z-[60] flex items-center justify-center bg-black/50 backdrop-blur-sm p-3 sm:p-6 md:top-[65px]" onClick={onClick}>
             
-            <div className="mt-12 w-full max-w-4xl transform overflow-hidden rounded-2xl bg-[#16213E] p-6 text-left align-middle shadow-xl transition-all cursor-default" onClick={(e) => e.stopPropagation()}>
+            <div className="w-full max-w-4xl max-h-full overflow-y-auto rounded-2xl bg-[#16213E] p-5 sm:p-6 text-left shadow-xl cursor-default" onClick={(e) => e.stopPropagation()}>
                 
                 <div className="flex justify-between">
                     <h2 className="text-2xl font-bold leading-6 text-[#FFFFFF] mb-4">Qui suis-je ?</h2>
-                    <X className="text-[#FFFFFF] cursor-pointer" onClick={onClick}/>
+                    <button type="button" aria-label="Fermer" className="shrink-0 text-[#FFFFFF]" onClick={onClick}><X /></button>
                 </div>
                 
                 <div className="mt-2">
@@ -30,7 +31,8 @@ const ModaleQuiSuisJe: React.FC<ModaleQuiSuisJe> = ({ onClick }) => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div>,
+        document.body
     );
 };
 

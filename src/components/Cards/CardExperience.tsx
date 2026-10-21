@@ -61,7 +61,7 @@ const CardExperience: React.FC<CardExperienceProps> = ({ experience }) => {
                 ))}
             </div>
 
-            <div className="flex justify-between">
+            <div className="flex flex-col gap-2 sm:flex-row sm:justify-between">
                 <p className="text-gray-500 text-sm">
                     {experience.startDate} - {experience.endDate || "Présent"}
                 </p>
