@@ -10,8 +10,8 @@ const Footer: React.FC = () => {
     const activeStyles = "text-[#FF75A0] ";
 
     return (
-        <footer className="bg-[#1A1A2E]/80 text-white text-center py-6">
-            <div className='flex flex-row justify-evenly'>
+        <footer className="bg-[#1A1A2E]/80 text-white text-center py-8 px-4 sm:px-6">
+            <div className='mx-auto flex max-w-6xl flex-col items-center justify-between gap-8 sm:flex-row sm:items-start'>
                 <div className='flex items-center'>
                     <h3 className='text-xl font-semibold text-white mb-2'>Nora Merhand</h3>
                 </div>
@@ -29,8 +29,8 @@ const Footer: React.FC = () => {
 
                 <div>
                     <h3 className='text-xl font-semibold text-white mb-4'>Me contacter</h3>
-                    <div className='flex flex-row justify-between'>
-                        <a href="https://www.linkedin.com/in/nora-merhand-a372432aa/" target='_blank'>
+                    <div className='flex justify-center gap-6'>
+                        <a href="https://www.linkedin.com/in/nora-merhand-a372432aa/" target='_blank' rel="noreferrer" aria-label="LinkedIn">
                             <SlSocialLinkedin className='w-6 h-6 hover:scale-110 transition-transform' />
                         </a>
 
@@ -38,7 +38,7 @@ const Footer: React.FC = () => {
                             <GoMail className='w-7 h-7 hover:scale-110 transition-transform' />
                         </a>
 
-                        <a href="tel:+33633429784" target='_blank'>
+                        <a href="tel:+33633429784">
                             <MdOutlinePhoneEnabled className='w-7 h-7 hover:scale-110 transition-transform' />
                         </a>
                     </div>
